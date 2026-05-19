@@ -47,7 +47,7 @@
 				</p>
 				<pb n="3"/>
 				<p>
-					<lb facs="#facs_3_l" n="N001"/>ferently when viewed by the daughters of Eve, and with Milton's
+					<lb facs="#facs_3_l" n="N001"/>ferently when viewed by the daughters of Eve, and with <persName key="Milton, John, 1608-1674." ref="http://viaf.org/viaf/17226855" ana="webannotation:http://temp.lincsproject.ca/80kfuzKFLrX">Milton</persName>'s
 					<lb facs="#facs_3_l_1" n="N002"/>browbeaten secretarial daughters in mind; and so on down
 					<lb facs="#facs_3_l_2" n="N003"/>through the canon.
 				</p>
@@ -434,6 +434,95 @@
         "type": "crm:E21_Person",
         "label": "Moore, Marianne, 1887-1972.",
         "description": "Moore, Marianne, 1887-1972, poétesse"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/80kfuzKFLrX">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/80kfuzKFLrX",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-19T20:33:57.799Z",
+    "creator": {
+        "id": "https://github.com/djakacki",
+        "type": "crm:E21_Person",
+        "name": "Diane Jakacki"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/teMch06kCnx",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/djakacki/guelphdh2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/djakacki/guelphdh2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/teMch06kCnx/selector/textPosition/mA1t33Q0k6u",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1635,
+                "end": 1641,
+                "refinedBy": {
+                    "id": "/target/teMch06kCnx/selector/textQuote/Vmw4sOPmiqR",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Milton",
+                    "prefix": " Paradise Lost reads dif-\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tferently when viewed by the daughters of Eve, and with",
+                    "suffix": "s\n\t\t\t\t\tbrowbeaten secretarial daughters in mind; and so on down\n\t\t\t\t\tthrough the canon"
+                }
+            },
+            {
+                "id": "/target/teMch06kCnx/selector/css/nBWzVQYarnM",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/80kfuzKFLrX]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/17226855",
+        "type": "crm:E21_Person",
+        "label": "Milton, John, 1608-1674.",
+        "description": "Milton, John, poète, 1608-1674"
     },
     "P2_has_type": [
         "oa:identifying"
