@@ -24,7 +24,7 @@
 					<lb facs="#facs_2_l_3" n="N003"/>praiseworthy series of interviews with writers is a departure
 					<lb facs="#facs_2_l_4" n="N004"/>from the norm. Previous collections have mixed the genders; this
 					<lb facs="#facs_2_l_5" n="N005"/>one is unisexual. That the editors have chosen to bring together,
-					<lb facs="#facs_2_l_6" n="N006"/>within the same covers, fifteen writers as diverse as Dorothy Parker
+					<lb facs="#facs_2_l_6" n="N006"/>within the same covers, fifteen writers as diverse as <persName key="Dorothy Parker" ref="http://www.wikidata.org/entity/Q270707" ana="webannotation:http://temp.lincsproject.ca/tkmeK4MQrZ3">Dorothy Parker</persName>
 					<lb facs="#facs_2_l_7" n="N007"/>and Nadine Gordimer, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/5YwP0OGEDJ1">Marianne Moore</persName> and Rebecca West, Isak
 					<lb facs="#facs_2_l_8" n="N008"/>Dinesen and <persName key="Hellman, Lillian, 1905-1984." ref="http://viaf.org/viaf/101362826" ana="webannotation:http://temp.lincsproject.ca/GYeXJubLhNf">Lillian Hellman</persName>, Mary McCarthy and Katherine
 					<lb facs="#facs_2_l_9" n="N009"/>Anne Porter, over what, in some cases, would doubtless be their
@@ -613,6 +613,95 @@
         "type": "crm:E21_Person",
         "label": "Hellman, Lillian, 1905-1984.",
         "description": "Hellman, Lillian"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/tkmeK4MQrZ3">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/tkmeK4MQrZ3",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:53:51.026Z",
+    "creator": {
+        "id": "https://github.com/mziku",
+        "type": "crm:E21_Person",
+        "name": "Mariana Ziku"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/mOsRyytEcXM",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mziku/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mziku/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/mOsRyytEcXM/selector/textPosition/ZTQwm7UN0K6",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 370,
+                "end": 384,
+                "refinedBy": {
+                    "id": "/target/mOsRyytEcXM/selector/textQuote/kB91d2FEVtu",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Dorothy Parker",
+                    "prefix": " That the editors have chosen to bring together,\n\t\t\t\t\twithin the same covers, fifteen writers as diverse as",
+                    "suffix": "\t\t\t\t\tand Nadine Gordimer, Marianne Moore and Rebecca West, Isak\n\t\t\t\t\tDinesen and Lillian Hellman, Mary McCarthy and Katherine\n\t\t\t\t\tAnne Porter, over what, in some cases, would doubtless be their\n\t\t\t\t\tdead bodies, merely because they share a double-X chronosome,\n\t\t\t\t\tis not due to a sudden mental aberration"
+                }
+            },
+            {
+                "id": "/target/mOsRyytEcXM/selector/css/58gHvZ5KNa3",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tkmeK4MQrZ3]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q270707",
+        "type": "crm:E21_Person",
+        "label": "Dorothy Parker",
+        "description": "American poet, short story writer, critic and satirist (1893-1967)"
     },
     "P2_has_type": [
         "oa:identifying"
