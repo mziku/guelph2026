@@ -22,9 +22,10 @@ We will also use the following software programs and platforms:
 * Oxygen XML Editor [Download here](https://www.oxygenxml.com/xml_editor.html)
 * [LEAF-Writer Commons](https://leaf-writer.leaf-vre.org/)
 * [Dynamic Table of Contexts](https://dtoc.leaf-vre.org/)
+* [NERVE](https://nerve.lincsproject.ca/en)
 
 _Do not_ pay for a Oxygen license -- you will only need the 30-day free trial license.
-_Do not_ pay for a GitHug subscription. Use the free version.
+_Do not_ pay for a GitHub subscription. Use the free version.
 
 ## Documents We Will Use:
 
