@@ -235,7 +235,7 @@
 					<lb facs="#facs_7_l" n="N001"/>notice the change in Elizabeth Bowen. Her early work is
 					<lb facs="#facs_7_l_1" n="N002"/>much more masculine. Her later work has much more
 					<lb facs="#facs_7_l_2" n="N003"/>drapery in it . . . I was going to write a piece at some point
-					<lb facs="#facs_7_l_3" n="N004"/>about this called "Sense and Sensibility," dividing women
+					<lb facs="#facs_7_l_3" n="N004"/>about this called "<title key="Sense and Sensibility" ref="http://www.wikidata.org/entity/Q274744" ana="webannotation:http://temp.lincsproject.ca/P3i9BVait21">Sense and Sensibility</title>," dividing women
 					<lb facs="#facs_7_l_4" n="N005"/>writers into these two. I am for the ones who represent
 					<lb facs="#facs_7_l_5" n="N006"/>sense ... (Pp. 189-190)
 				</p>
@@ -791,6 +791,95 @@
         "type": "crm:E21_Person",
         "label": "Joyce Carol Oates",
         "description": "American author (born 1938)"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/P3i9BVait21">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/P3i9BVait21",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:48:25.389Z",
+    "creator": {
+        "id": "https://github.com/mziku",
+        "type": "crm:E21_Person",
+        "name": "Mariana Ziku"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/Wkkj5WXn3N7",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mziku/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mziku/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Wkkj5WXn3N7/selector/textPosition/92g4xll0zlc",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 10730,
+                "end": 10751,
+                "refinedBy": {
+                    "id": "/target/Wkkj5WXn3N7/selector/textQuote/PRY7i04UHRO",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Sense and Sensibility",
+                    "prefix": " I was going to write a piece at some point\n\t\t\t\t\tabout this called ",
+                    "suffix": "\" dividing women\n\t\t\t\t\twriters into these two"
+                }
+            },
+            {
+                "id": "/target/Wkkj5WXn3N7/selector/css/ocuIAoD7rAf",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/P3i9BVait21]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q274744",
+        "type": "frbroo:F1",
+        "label": "Sense and Sensibility",
+        "description": "1811 novel by Jane Austen"
     },
     "P2_has_type": [
         "oa:identifying"
