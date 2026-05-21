@@ -4506,7 +4506,7 @@
 					trust. In the interview which begins this collection. <persName
 						key="Dorothy Parker" ref="http://www.wikidata.org/entity/Q270707">Dorothy
 						Parker</persName> articulates the dilemma: </p>
-				<q> I'm a feminist, and God knows I'm loyal to my sex, and you must remember that
+				<q xml:id="par01"> I'm a feminist, and God knows I'm loyal to my sex, and you must remember that
 					from my very early days, when this city was scarcely safe from buffaloes, I was
 					in the struggle for equal rights for women. But when we paraded through the
 					catcalls of men and when we chained ourselves to lamp posts to try to get out
@@ -4523,7 +4523,7 @@
 					of the artist, but she was right also about the differences in social situation
 					these androgynous artists are certain to encounter. We may agree with <persName
 						key="Nadine Gordimer" ref="http://www.wikidata.org/entity/Q47619">Nadine
-						Gordimer</persName> when she says, <q>"By and large, I don't think it
+						Gordimer</persName> when she says, <q xml:id="gor01">"By and large, I don't think it
 						matters a damn what sex a writer is, so long as the work is that of a real
 						writer"</q> (p. 260), if what she means is that it shouldn't matter, in any
 					true assesment of talent of accomplishment, but unfortunately it often has
@@ -4531,7 +4531,7 @@
 						ref="http://www.wikidata.org/entity/Q217557">Joyce Carol Oates</persName> is
 					asked the "woman" question. phrased in her case as "What are the advantages of
 					being a woman writer?", she makes a virtue of necessity: </p>
-				<q> Advantages! Too many to enumerate, probably. Since, being a woman. I can't be
+				<q xml:id="oat01"> Advantages! Too many to enumerate, probably. Since, being a woman. I can't be
 					taken altogether seriously by the sort of male critics who rank writers 1, 2. 3
 					in the public press. I am free, I suppose, to do as I like. (P. 382) </q>
 				<p>
@@ -4539,7 +4539,7 @@
 						Didion</persName> is asked the same question in its negative form—
 					"disadvantages" instead of "advantages"—and also focuses on social differences,
 					social acceptance and role: </p>
-				<q> When I was starting to write—in the late fifties, early sixties—there was a kind
+				<q xml:id="did01"> When I was starting to write—in the late fifties, early sixties—there was a kind
 					of social tradition in which male novelists could operate. Hard drinkers, bad
 					livers. Wives, wars, big fish, <placeName key="Africa"
 						ref="http://www.wikidata.org/entity/Q15"
@@ -4573,20 +4573,20 @@
 						<persName key="Ezra Pound" ref="http://www.wikidata.org/entity/Q163366"
 						ana="webannotation:http://temp.lincsproject.ca/0be3u8zyKkx">Ezra
 						Pound</persName>, writing in the second decade of this century, spoke for
-					many male authors and critics before and since: <q>"I distrust the 'female
+					many male authors and critics before and since: <q xml:id="pou01">"I distrust the 'female
 						artist.' . . . Not wildly anti-feminist we are yet to be convinced that any
 						woman ever invented anything in the arts."</q> (Carpenter, A Serious
 					Character, Houghton Mifflin, 1988, p. 239.) Cognate with this view of writing as
 					a male preserve has been the image of women writers as lightweight puffballs,
 					neurotic freaks suffering from what <persName key="Edna O'Brien"
 						ref="http://www.wikidata.org/entity/Q178225">Edna O'Brien</persName> calls
-						<q>"a double dose of masochism: the masochisim of the woman and that of the
+						<q xml:id="obr01">"a double dose of masochism: the masochisim of the woman and that of the
 						artist"</q> (p. 342), or, if approved of, as honorary men. Femininity and
 					excellence, it seemed, were mutually exclusive. Thus <persName
 						key="Katherine Anne Porter" ref="http://www.wikidata.org/entity/Q236958"
 						ana="webannotation:http://temp.lincsproject.ca/ZWDm0bsxKBV">Katherine Anne
 						Porter</persName>:</p>
-				<q>If there is such a thing as a man's mind and a woman's mind—and I'm sure there
+				<q xml:id="por01">If there is such a thing as a man's mind and a woman's mind—and I'm sure there
 					is—it isn't what most critics mean when they talk about the two. If I show
 					wisdom, they say I have a masculine mind. If I am silly and irrelevant—and
 					Edmund Wilson says I often am—why then they say I have a typically feminine
@@ -4599,7 +4599,7 @@
 					<persName key="Katherine Anne Porter"
 						ref="http://www.wikidata.org/entity/Q236958"
 						ana="webannotation:http://temp.lincsproject.ca/ZSrlmQlGdNP">Katherine Anne
-						Porter’s</persName> reply—<q>“I think that’s very true and very
+						Porter’s</persName> reply—<q xml:id="por02">“I think that’s very true and very
 					right"</q>—is by no means the only one possible. Some, such as <persName
 						key="Mary McCarthy" ref="http://www.wikidata.org/entity/Q268147">Mary
 						McCarthy</persName>, are clearly impatient with the question itself.
@@ -4608,7 +4608,7 @@
 					"feminine" sensibility, but assigns herself firmly with the former. </p>
 				<q> INTERVIEWER: What do you think of women writers, or do you think the category
 					"woman writer" should not be made? </q>
-				<q> MCCARTHY: Some women writers make it. I mean, there's a certain kind of woman
+				<q xml:id="mcc01"> MCCARTHY: Some women writers make it. I mean, there's a certain kind of woman
 					writer who's a capital W, capital W. <persName key="Virginia Woolf"
 						ref="http://www.wikidata.org/entity/Q40909">Virginia Woolf</persName>
 					certainly was one, and <persName key="Katherine Mansfield"
@@ -4625,7 +4625,7 @@
 						ref="http://www.wikidata.org/entity/Q259364">Eudora Welty</persName>, who's
 					certainly not a "Woman Writer," though she's become one lately. </q>
 				<q> INTERVIEWER: What is it that happens to make this change? </q>
-				<q> MCCARTHY: I think they become interested in décor. You notice the change in
+				<q xml:id="mcc02"> MCCARTHY: I think they become interested in décor. You notice the change in
 						<persName key="Elizabeth Bowen" ref="http://www.wikidata.org/entity/Q235308"
 						>Elizabeth Bowen</persName>. Her early work is much more masculine. Her
 					later work has much more drapery in it . . . I was going to write a piece at
@@ -4637,7 +4637,7 @@
 					altogether: </p>
 				<q> INTERVIEWER: you have written about the writer as being genderless and living in
 					the world of "as if" rather than being restrained by her . . . </q>
-				<q> OZICK: Parochial temporary commitments. . . . A writer is someone born with a
+				<q xml:id="ozi01"> OZICK: Parochial temporary commitments. . . . A writer is someone born with a
 					gift. An athlete can run. A painter can paint. A writer has a facility with
 					words. A good writer can also think. Isn't that enough to define a writer by?
 					(P. 304) </q>
@@ -4716,7 +4716,7 @@
 					has been given. From <persName key="Joyce Carol Oates"
 						ref="http://www.wikidata.org/entity/Q217557">Joyce Carol Oates</persName>,
 					one of the youngest writers in this group: </p>
-				<q> I take seriously <persName key="Gustave Flaubert"
+				<q xml:id="oat02"> I take seriously <persName key="Gustave Flaubert"
 						ref="http://www.wikidata.org/entity/Q43444">Flaubert</persName>'s statement
 					must love one another in our art as the mystics love another in God. By honoring
 					one another's creation we honor something that deeply connected us all, and
@@ -4724,7 +4724,7 @@
 				<p> And from <persName key="Dorothy Parker"
 						ref="http://www.wikidata.org/entity/Q270707">Dorothy Parker</persName>, one
 					of the oldest: </p>
-				<q> I want so much to write well, though I know I don't . . . But during and at the
+				<q xml:id="par02"> I want so much to write well, though I know I don't . . . But during and at the
 					end of my life, I will adore those who have. (P. 119) </q>
 				<p>
 					<persName key="Margaret Atwood" ref="http://www.wikidata.org/entity/Q183492"
