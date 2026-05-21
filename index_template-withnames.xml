@@ -25,17 +25,17 @@
 			<div type="index">
 				<list>
 					<item>
-						<ref target="target">Index item</ref>
+						<ref target="#par01 #par02 #gor01 #oat01 #oat02 #did01 #por01 #por02 #mcc01 #mcc02 #ozi01 #pou01">Index item</ref>
 						<list>
 							<head>Interviewees</head>
-							<item><ref target="target">Dorothy Parker</ref></item>
-							<item><ref target="target">Nadine Gordimer</ref></item>
-							<item><ref target="target">Joyce Carol Oates</ref></item>
-							<item><ref target="target">Joan Didion</ref></item>
-							<item><ref target="target">Katherine Anne Porter</ref></item>
-							<item><ref target="target">Mary McCarthy</ref></item>
-							<item><ref target="target">Cynthia Ozick</ref></item>
-							<item><ref target="target">Ezra Pound</ref></item>
+							<item><ref target="#par01 #par02">Dorothy Parker</ref></item>
+							<item><ref target="#gor01">Nadine Gordimer</ref></item>
+							<item><ref target="#oat01 #oat02">Joyce Carol Oates</ref></item>
+							<item><ref target="#did01">Joan Didion</ref></item>
+							<item><ref target="#por01 #por02">Katherine Anne Porter</ref></item>
+							<item><ref target="#mcc01 #mcc02">Mary McCarthy</ref></item>
+							<item><ref target="#ozi01">Cynthia Ozick</ref></item>
+							<item><ref target="#pou01">Ezra Pound</ref></item>
 						</list>
 					</item>
 				</list>

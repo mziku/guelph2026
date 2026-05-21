@@ -27,10 +27,15 @@
 					<item>
 						<ref target="target">Index item</ref>
 						<list>
-							<head>Index item</head>
-							<item><ref target="target">Target</ref></item>
-							<item><ref target="target">Target</ref></item>
-							<item><ref target="target">Target</ref></item>
+							<head>Interviewees</head>
+							<item><ref target="target">Dorothy Parker</ref></item>
+							<item><ref target="target">Nadine Gordimer</ref></item>
+							<item><ref target="target">Joyce Carol Oates</ref></item>
+							<item><ref target="target">Joan Didion</ref></item>
+							<item><ref target="target">Katherine Anne Porter</ref></item>
+							<item><ref target="target">Mary McCarthy</ref></item>
+							<item><ref target="target">Cynthia Ozick</ref></item>
+							<item><ref target="target">Ezra Pound</ref></item>
 						</list>
 					</item>
 				</list>
